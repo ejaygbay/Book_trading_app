@@ -1,0 +1,17 @@
+{
+    "name": "book_trading",
+    "version": "1.0.0",
+    "description": "FreeCodeCamp Book_Trading App",
+    "main": "book_trade_server.js",
+    "scripts": {
+        "start": "nodemon book_trade_server.js"
+    },
+    "author": "Emmanuel",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.18.3",
+        "express": "^4.16.3",
+        "mysql": "^2.15.0",
+        "nodemon": "^1.17.4"
+    }
+}
